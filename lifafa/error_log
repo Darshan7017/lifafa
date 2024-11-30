@@ -1,0 +1,1 @@
+[18-Apr-2023 13:20:39 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/fastbac1/public_html/lifafa/claim-user.php on line 29

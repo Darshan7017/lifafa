@@ -1,0 +1,123 @@
+   html{
+         text-rendering: optimizeLegibility !important;
+         -webkit-font-smoothing: antialiased;
+         -moz-osx-font-smoothing: grayscale;
+    }
+
+    body{ background-color: white;
+           line-height: 1;
+        webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .form{
+        position: relative;
+        max-width: 420px;
+        margin: 0 auto;
+        margin-top: 30px;
+
+    }
+    h1,h2{
+        font-size: 25px;
+        font-weight: 400;
+        color: black;
+        max-width: 630px;
+        margin: 0 auto;
+        letter-spacing: 0;
+        line-height: 1.6;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    h2{
+        color: blue;
+    }
+    }
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color: black;
+        max-width: 630px;
+        margin: 0 auto;
+        letter-spacing: 0;
+        line-height: 1.6;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+                         .kc_fab_main_btn {
+  width: 320px;
+  color: #FFF;
+  font-size: 45px;
+  
+  transition: .3s;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  bottom: 1%;
+  right: 1px;
+  position: fixed;
+}
+
+.kc_fab_main_btn:focus {
+  transform: scale(5);
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+    .head{
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    span{
+        font-family: 'Montserrat';
+        color: grey;
+        font-size: 10px;
+        font-weight: bolder;
+
+    }
+    .access{
+        font-size: 20px;
+    }
+    font{
+        font-family: 'Bree Serif', serif;
+    }
+    hr{
+    border:0;height:2px;
+    text-align: center;
+    background-image:linear-gradient(to right,rgba(0,0,0,0),#047aed,rgba(0,0,0,0));
+    }
+    .font{
+            font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: blue;
+    }
+    #loader {
+      border: 12px solid
+      #047aed;
+      border-radius: 50%;
+      border-top: 12px solid black;
+      width: 100px;
+      height: 100px;
+      text-align: center;
+      animation: spin 1s linear infinite;
+      z-index: 9999;
+    }
+    @keyframes spin {
+      100% {
+      transform: rotate(360deg);
+       }
+    }
+    .center {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    
+
+    .content {
+  border: 2px dashed blue;
+  padding: .5em;}

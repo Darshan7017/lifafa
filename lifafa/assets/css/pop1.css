@@ -1,0 +1,155 @@
+.popup{
+    background-color: #ffffff;
+    width: 365px;
+    height:445px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+	  
+.loader{
+    border-radius:10px;
+     position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 105%;
+    height: 100%;
+    z-index: 9999;
+    background: url("https://campaignwala.xyz/new/assets/img/photo6123100399213850572-removebg-preview.png") 50% 50% no-repeat #f9f9f9;
+    opacity: 1;  
+position: absolute;
+      left: 0;
+      top: 0;
+	  animation: move 2.5s linear infinite;
+   
+}	  
+@keyframes move{
+     0%{ 
+        transform: translate(-15px, 0px);
+	 }
+	 50%{ 
+        transform: translate(0px, -15px);
+	 }
+	 100%{ 
+        transform: translate(-15px, 0px);
+	 }
+}
+.animate-charcter
+{
+    margin-top: -27px;
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 40px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.winter{
+        background-image: url('https://www.clipartmax.com/png/full/34-345162_vector-png-image-flower-design-png.pngG'),
+      url('https://earningarea.in/images/theme/skin_maintexture_winter.webp');
+    background-color: #E6E9FC;
+}
+.lifafaimgover{
+        overflow: hidden;
+    border-radius: 10px;
+    height: 120px;
+    width: 180px;
+    background-image: url('https://earningarea.in/images/lifafa/lifafabygaurav.png');
+    z-index: 350 !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat: no-repeat;
+    background-attachment: relative;
+    background-position: center;
+    background-size: 180px;
+    transform: translateY(0px);
+}
+.stickererrorover{
+        transform: translate(0px,38px);
+}
+progress{
+        margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* position: absolute; */
+    /* bottom: 0; */
+    width: 100%;
+    height: 9px;
+    transform: translateY(5px);
+    border: 0;
+    color: red;
+    /* margin: auto; */
+}
+.remain{
+        margin-top: 5px;
+    /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+  font-size: larger;
+    font-weight: 500;
+    margin-left:-11px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: rgba(255,255,255,0.0);
+    border-top: 1px #f2f2f2 solid;
+}

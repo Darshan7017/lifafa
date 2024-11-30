@@ -1,0 +1,9 @@
+[08-Apr-2023 08:08:47 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/fastbac1/public_html/adminoffastbackad/con.php on line 9
+[08-Apr-2023 08:12:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/fastbac1/public_html/adminoffastbackad/index.php on line 22
+[08-Apr-2023 08:12:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/fastbac1/public_html/adminoffastbackad/index.php on line 237
+[08-Apr-2023 08:12:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/fastbac1/public_html/adminoffastbackad/index.php on line 248
+[13-Apr-2023 05:16:59 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/bot5660399808:AAE3wQXdwvbVpoZj1q5Pozm3HS6oigKjHT8/sendMessage?chat_id=off&amp;text=%3Cb%3E%E2%9C%85+Admin+Did+Activity+In+Your+Account+%0D%0A%0D%0A%E2%99%82%EF%B8%8F+Status+%3A-+Successful%0D%0A%E2%9A%A1+Amount+%3A-+%E2%82%B98+%0D%0A%0D%0A%F0%9F%93%85+Date+%3A-+13-Apr-2023+05%3A16%3A59+AM%0D%0A%F0%9F%A4%94+Reason+%3A-+Thanks+You+%2C+Keep+Supporting%0D%0A%F0%9F%A4%91+Updated+Balance+%3A+8%0D%0A%0D%0A%E2%9A%A1+Powered+By+Fast+Back%0D%0A%3C%2Fb%3E&amp;parse_mode=html): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home2/fastbac1/public_html/adminoffastbackad/addfund.php on line 58
+[14-Apr-2023 12:07:31 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home2/fastbac1/public_html/adminoffastbackad/con.php on line 9
+[14-Apr-2023 12:07:33 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home2/fastbac1/public_html/adminoffastbackad/con.php on line 9
+[19-Apr-2023 06:48:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home2/fastbac1/public_html/adminoffastbackad/index.php on line 22
